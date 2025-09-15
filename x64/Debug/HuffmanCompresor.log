@@ -1,0 +1,25 @@
+﻿  HuffmanCompresor.cpp
+D:\VYSKA\C++_SELFSTUDY\HuffmanCompresor\HuffmanCompresor\HuffmanCompresor.cpp(449,36): warning C4554: '|': check operator precedence for possible error; use parentheses to clarify precedence
+D:\VYSKA\C++_SELFSTUDY\HuffmanCompresor\HuffmanCompresor\HuffmanCompresor.cpp(781,23): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data
+D:\VYSKA\C++_SELFSTUDY\HuffmanCompresor\HuffmanCompresor\HuffmanCompresor.cpp(850,21): warning C4018: '<': signed/unsigned mismatch
+  D:\VYSKA\C++_SELFSTUDY\HuffmanCompresor\HuffmanCompresor\HuffmanCompresor.cpp(850,21):
+  the template instantiation context (the oldest one first) is
+  	D:\VYSKA\C++_SELFSTUDY\HuffmanCompresor\HuffmanCompresor\HuffmanCompresor.cpp(998,45):
+  	see reference to function template instantiation 'Container readHuffFile<std::u32string,char32_t>(const std::string &)' being compiled
+          with
+          [
+              Container=std::u32string
+          ]
+  
+D:\VYSKA\C++_SELFSTUDY\HuffmanCompresor\HuffmanCompresor\HuffmanCompresor.cpp(732,19): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  D:\VYSKA\C++_SELFSTUDY\HuffmanCompresor\HuffmanCompresor\HuffmanCompresor.cpp(732,19):
+  the template instantiation context (the oldest one first) is
+  	D:\VYSKA\C++_SELFSTUDY\HuffmanCompresor\HuffmanCompresor\HuffmanCompresor.cpp(1022,2):
+  	see reference to function template instantiation 'void printStatistic<Symbol,std::string>(std::unordered_map<Symbol,int,std::hash<char32_t>,std::equal_to<char32_t>,std::allocator<std::pair<const Symbol,int>>>,std::unordered_map<char32_t,std::string,std::hash<char32_t>,std::equal_to<char32_t>,std::allocator<std::pair<const char32_t,std::string>>>,const Container &,bool)' being compiled
+          with
+          [
+              Container=std::string
+          ]
+  
+D:\VYSKA\C++_SELFSTUDY\HuffmanCompresor\HuffmanCompresor\HuffmanCompresor.cpp(736,27): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+  HuffmanCompresor.vcxproj -> D:\VYSKA\C++_SELFSTUDY\HuffmanCompresor\x64\Debug\HuffmanCompresor.exe
